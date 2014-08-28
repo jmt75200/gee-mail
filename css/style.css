@@ -1,0 +1,98 @@
+/*
+CSS for Devleague Challenge - Geemail
+8/26/2014
+
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Amaranth|Montserrat);
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2 {
+	font-family: 'Amaranth', sans-serif;
+	text-align: center;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+}
+
+.logo h1 {
+	font-size: 2.25em;
+}
+
+#main, .container {
+	width: 90%;
+	border: 1px solid #ccc;
+	background-color: #ccc;
+	margin: 0 auto;
+}
+
+header {
+	-webkit-box-shadow: 0px 6px 4px 0px rgba(221, 221, 221, 0.78);
+	-moz-box-shadow: 0px 6px 4px 0px rgba(221, 221, 221, 0.78);
+	box-shadow: 0px 6px 4px 0px rgba(221, 221, 221, 0.78);
+	margin: 0 0 2%;
+	padding: .15% 0 0;
+}
+
+header, .subject {
+	background-color: #1dd0a4;
+}
+
+.subject {
+	padding: .55% 2%;
+	color: #fff;
+	font-size: 1.2em;
+}
+
+.sender, .counter {
+	font-size: .95em;
+}
+
+.body, .sender {
+	padding: .75% 1%;
+}
+
+.list-message {
+	background-color: #fff;
+	float: left;
+	width: 33.89479166667%; /* 325.39 / 960 */
+	padding: .75% 1%;
+	margin: 0 0 0 1%;
+	
+}
+
+.count {
+	padding: .75% 1%;
+	border: 1px solid #ccc;
+	background-color: #7d7d7d;
+	text-align: center;
+	color: #fff;
+}
+
+.message {
+	background-color: #fff;
+	float: left;
+	width: 58.85416667% ; /* 565 / 960 */ 
+	margin-left: 10px;
+	padding: .75% 1% 2%;
+}
+
+.clearfix:after{
+	clear:both;
+	content:' ';
+	display:block;
+	font-size:0;
+	line-height:0;
+	visibility:hidden;
+	width:0;
+	height:0
+}
+
+
+footer {
+	width: 35%%;
+	display:block;
+	padding: 0 30%;
+}
+

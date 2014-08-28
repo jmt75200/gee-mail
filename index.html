@@ -1,11 +1,46 @@
+<!DOCTYPE html>
 <html>
 	<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<title>GeeMail</title>
 		<script src="js/mail-generator.js"></script>
 		<link href="css/style.css" rel="stylesheet" media="screen">
+		<script>
+		//set a recurring setTimeout function to call getNewMessage
+		</script>
 	</head>
 	<body>
 		<div class="container" id="main">
-			Build Me!
-		</div>
+			<header>
+			<div class="logo clearfix">
+				<h1>GeeMail</h1>
+			</div><!-- end of logo div -->
+			<hr>
+			</header>
+			
+			<section class="clearfix">
+			<div class="list-message">
+			<div class="count">
+				<p>inbox counter () <span style="margin: 0 10px;">|</span> new message alert () </p>
+			</div><!-- end of counter div -->
+				<p> Items that need to be added via 'windows.geemails':</p>
+					<div class="list-box"><p><em>Subject:</em> </p>
+					<p class="sender">sent //Date by //Sender</p>
+					<hr>
+					</div><!-- set as list template -->
+				
+			</div><!-- end div for list of messages -->
+			
+			<div class="container message clearfix">
+				<div class="subject"> <p>Subject: Items that need to be added via 'windows.geemails':</p></div>
+					<div class="sender">sent //Date by //Sender</div>
+					<div class="body"><hr> Body</div>
+			</div><!-- end div for main message -->
+			</section>
+			<footer>
+		<p>&copy; copyright 2014. Joelle Torneros - Devleague. </p>
+		</footer>
+			
+		</div><!--end of main container -->
 	</body>
 </html>
